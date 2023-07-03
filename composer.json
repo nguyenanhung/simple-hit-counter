@@ -1,14 +1,16 @@
 {
     "type": "library",
-    "name": "nguyenanhung/template-php-lib",
-    "description": "Template for repository helper, library - Basic, Simple and Lightweight",
+    "name": "nguyenanhung/simple-hit-counter",
+    "description": "PHP Simple Online / Hit / Visitor Counter",
     "keywords": [
-        "template",
+        "counter",
+        "online",
+        "visitor",
         "helper",
         "library",
         "php"
     ],
-    "homepage": "https://github.com/nguyenanhung/template-php-lib",
+    "homepage": "https://github.com/nguyenanhung/simple-hit-counter",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
@@ -24,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Libraries\\TemplateREPLACE\\": "src/"
+            "nguyenanhung\\Libraries\\SimpleHitCounter\\": "src/"
         },
         "files": [
             "helpers/helpers.php"
